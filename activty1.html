@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Functions of Javascript</p>
+    <button type="button" onclick="myfunction()">button</button>
+    <button type="button" onclick="myfunction1()">button2</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        var a=5;
+        function myfunction(){
+            var b=4;
+            document.getElementById("demo").innerHTML=b*a;
+        }
+        var result=function (a,b) {
+            return a*b;
+        };
+        document.write(result(5,8));
+        var a = 6;
+            function myfunction1() {
+                var b = 48;
+                document.getElementById("demo2").innerHTML = b / a;
+            }
+    </script>
+</body>
+</html>
